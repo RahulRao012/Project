@@ -9,7 +9,7 @@ week_start=today - timedelta(days=7)
 From = "abc@xyz.com"
 To = "cdf@rst.com"
 Subject = "Pull requests for previous week"
-username = "hritikch24"
+username = "Rahul24"
 url= f"https://api.github.com/repos/grafana/grafana/pulls?state=all+created=>week_start+updated=>week_start"
 result=requests.get(url).json()
 print("From : {}".format(From))
